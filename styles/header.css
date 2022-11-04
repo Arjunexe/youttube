@@ -1,0 +1,165 @@
+.header {
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(15 15 15);
+  z-index: 100;
+
+  
+}
+.left-section{
+ 
+  
+  display: flex;
+  align-items: center;
+  margin-top: 4px;
+}
+.loggs{
+  font-size: large;
+  font-weight: bolder;
+  color: aliceblue;
+ 
+}
+
+.hamburger{
+   height: 21px;
+   margin-left: 20px;
+}
+.youtube-logo{
+  height: 25px;
+  margin-left: 20px;
+}
+.middle-section{
+  
+  flex: 1;
+  margin-left: 50px;
+  margin-right: 39px;
+  max-width: 650px ;
+  display: flex;
+  align-items: center;
+  margin-top: 4px;
+}
+.search-bar{
+   flex:1;
+   height: 33px;
+   padding-left: 10px;
+   font-size: 16px;
+   border-style: solid;
+   border-color: rgb(68, 62, 62);
+   background-color:rgb(15 15 15);
+   color: rgb(226, 221, 221);
+   border-bottom-right-radius: 0px;
+   border-bottom-left-radius: 0px;
+   border-top-left-radius: 20px;
+   border-bottom-left-radius: 20px;
+    width: 0;
+
+   
+}
+.search-bar::placeholder{
+  font-size: 15px;
+}
+
+
+.search-b{
+  height: 39px;
+  width: 49px;
+  background-color: rgb(37, 35, 35);
+  border-color:  rgb(37, 35, 35);
+  border-style: solid;
+ 
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  position: relative;
+  cursor: pointer;
+}
+.search-b,
+.voice-b{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  
+}
+.search-b .tooltip,
+.voice-b .tooltip
+{
+  position: absolute;
+  background-color:  rgb(68, 62, 62);
+  color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  font-size: 12px;
+  bottom: -50px;
+  opacity: 0;
+  transition: opacity 0.30s;
+  pointer-events: none;
+  white-space: nowrap;
+}
+ .search-b:hover .tooltip,
+ .voice-b:hover .tooltip
+ {
+  opacity: 1;
+
+ }
+
+.ssrr{
+  height: 20px;
+  width: 20px;
+}
+.vvrr{
+  height: 19px;
+  width: 11px;
+}
+
+.voice-b{
+  height: 45px;
+  width: 45px;
+  background-color: rgb(26, 24, 24);
+  border-radius: 50px;
+  margin-left: 9px;
+  border-color:  rgb(26, 24, 24);
+  border-style: solid;
+
+  
+}
+
+.right-section{
+  width: 200px;
+  margin-top: 4px;
+  display: flex;
+  align-items: center;
+}
+
+.create{
+  height: 29px;
+  width: 30px;
+  margin-left: 26px;
+  cursor: pointer;
+  
+}
+.bell{
+  height: 25px;
+  width: 22px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.me{
+  height: 33px;
+  width: 33px;
+  margin-left: 25px;
+  border-radius: 15px;
+  cursor: pointer;
+
+}
